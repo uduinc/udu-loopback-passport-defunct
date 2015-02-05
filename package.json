@@ -1,0 +1,42 @@
+{
+  "name": "udu-loopback-passport",
+  "version": "0.0.1",
+  "description": "udu's Implementation of Pasport for Loopback",
+  "homepage": "https://github.com/uduinc/udu-loopback-passport",
+  "keywords": [
+    "udu",
+    "passport",
+    "loopback"
+  ],
+  "author": {
+    "name": "Bruce Clounie",
+    "email": "bruce.clounie@udu.nu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uduinc/udu-loopback-passport"
+  },
+  "main": "lib/udu-loopback-passport.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "passport": "git+ssh://git@github.com:uduinc/passport.git",
+    "passport-facebook": "^1.0.3",
+    "passport-google": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "readmeFilename": "readme.md",
+  "maintainers": [
+    {
+      "name": "Bruce Clounie",
+      "email": "bruce.clounie@udu.nu"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/uduinc/udu-loopback-passport/issues"
+  }
+}
