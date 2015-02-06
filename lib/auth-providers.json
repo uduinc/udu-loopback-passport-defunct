@@ -14,7 +14,7 @@
     {
         "clientID": "859142096533-ek2uj6jsc4696bmgki1nf6c7q7dhchsf.apps.googleusercontent.com",
         "clientSecret": "pLgZ0mWu8x3DmpQ9LsJOXILh",
-        "callbackURL": "http://udu.nu/auth/google/callback",
+        "callbackURL": "http://udumeetapi-dev.elasticbeanstalk.com/auth/google/callback",
         "options":
         {
             "scope":
