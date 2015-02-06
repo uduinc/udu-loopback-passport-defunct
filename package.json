@@ -23,7 +23,7 @@
   "dependencies": {
     "passport": "git+ssh://git@github.com:uduinc/passport.git",
     "passport-facebook": "^1.0.3",
-    "passport-google": "^0.3.0",
+    "passport-google-oauth": "^0.1.5",
     "passport-local": "^1.0.0",
     "passport-twitter": "^1.0.2"
   },
