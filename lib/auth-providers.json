@@ -8,7 +8,14 @@
     {
         "clientID": 561054820672332,
         "clientSecret": "0e6707f9e9bbdf9e5fccb65213777d71",
-        "callbackURL": "http://udu.nu/auth/facebook/callback"
+        "callbackURL": "http://udumeetapi-dev.elasticbeanstalk.com/auth/facebook/callback",
+        "options":
+        {
+            "scope":
+            [
+                "email"               
+            ]
+        }        
     },
     "google":
     {
@@ -28,6 +35,6 @@
     {
         "consumerKey": "ZOmhPTsm7OHCkfG7uicrh5T3r",
         "consumerSecret": "vYu9JMkFtjSFXc3DKIJSYiXzkN62MmZxi7lMhzPlKCcUBDAw0Z",
-        "callbackURL": "http://udu.nu/auth/twitter/callback"
+        "callbackURL": "http://udumeetapi-dev.elasticbeanstalk.com/auth/twitter/callback"
     }
 }
